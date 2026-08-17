@@ -8,5 +8,5 @@ $fimDeSemana = true;
 if ($feriado || $fimDeSemana) {
    echo "\n Hoje não tem aula";
 } else {
-   echo "\n não tem feriado";
+   echo "\n não é feriado";
 }
