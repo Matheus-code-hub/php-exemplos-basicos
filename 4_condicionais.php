@@ -31,6 +31,14 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         <label for = "">Senha: </label>
         <input type = "password" name="senha" required> <br>
         <button type = "submit">entrar</button> 
-</form>   
+        </form>
+<?php
+
+if (isset($erro)){
+    echo "<p style='color: red';> $erro</p>"
+}
+
+?>
+
 </body>
 </html>
